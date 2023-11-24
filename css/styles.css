@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.content {
+    height: 100vh;
+    background: fixed url("https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp14-m3-max-pro-spaceblack-gallery2-202310?wid=2000&hei=1537&fmt=jpeg&qlt=95&.v=1698259119285");
+    overflow: hidden;
+    color: #fff;
+}
+.overlay {
+    height: 100vh;
+    background: rgba(0,0,0, 0.7);
+    overflow: hidden;
+    z-index: 2;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
